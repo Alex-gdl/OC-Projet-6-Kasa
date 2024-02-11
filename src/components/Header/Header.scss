@@ -1,0 +1,44 @@
+header {
+    align-items: center;
+    display: inline-flex;
+    width: 80%;
+    margin: 40px 10%;
+  
+    @media screen and (max-width: 1490px) {
+      margin: 40px 2.5%;
+      width: 95%;
+    }
+  
+    > img {
+      height: 68px;
+  
+      @media screen and (max-width: 1490px) {
+        height: 47px;
+      }
+    }
+  }
+  
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  
+  .Link-Header {
+    color: #ff6060;
+    margin: auto 25px;
+    text-decoration: none;
+  
+    &:hover {
+      color: #000000;
+    }
+  
+    @media screen and (max-width: 1490px) {
+      margin: auto 5px;
+    }
+  }
+  
+  .LinkList.active {
+    border-bottom: 1px solid #ff6060;
+  }
+  

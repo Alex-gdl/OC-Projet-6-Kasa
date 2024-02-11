@@ -1,0 +1,16 @@
+$kasa-red: #FF6060;
+$kasa-grey: #F6F6F6;
+
+@mixin tablet-size {
+    @media (max-width: 1024px) { @content; }
+  }
+
+@mixin phone-size {
+    @media (max-width: 767px) { @content; }
+  }
+
+@mixin font-styling ($weight, $size, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;
+}
