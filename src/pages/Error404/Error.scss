@@ -1,25 +1,31 @@
+.Error404 {
+  text-align: center
+}
+
 .Error404H1 {
-    color: #ff6060;
-    font-size: 150px;
-    margin: auto;
-  
-    @media screen and (max-width: 1490px) {
-      font-size: 96px;
-    }
+  color: #ff6060;
+  font-size: 150px;
+  margin: auto;
+}
+
+.ErrorMessage {
+  color: #ff6060;
+  display: block;
+  font-size: 20px;
+}
+
+.Link-Header.LinkError {
+  display: block;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1490px) {
+  .Error404H1 {
+    font-size: 96px;
   }
   
   .ErrorMessage {
-    color: #ff6060;
-    display: block;
-    font-size: 20px;
-  
-    @media screen and (max-width: 1490px) {
-      font-size: 18px;
-    }
+    font-size: 18px;
   }
-  
-  .Link-Header.LinkError {
-    display: block;
-    margin-top: 150px;
-  }
+}
   
