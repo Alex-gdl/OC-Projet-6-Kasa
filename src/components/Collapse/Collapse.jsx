@@ -3,7 +3,7 @@ import "./Collapse.scss";
 import arrow from "../../assets/images/Fleche.svg";
 
 function Collapse({titre, description}) {
-    /* Crée un Hook d'état */
+
     const [Open, IsOpen] = useState(false);
 
     return(
@@ -15,7 +15,6 @@ function Collapse({titre, description}) {
                 </span>
             </div>
             {
-                /* Si le collapse est à TRUE alors il affichera la description */
                 Open && <div className="CollapseDescription">{description}</div>
             }
         </div>
